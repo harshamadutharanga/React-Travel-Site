@@ -1,0 +1,86 @@
+.map-form-container {
+    position: absolute;
+    bottom: 50px; /* Distance from the bottom edge of the map */
+    left: 10px;   /* Distance from the left edge of the map */
+    z-index: 1000; /* Ensure form container is above the map */
+  }
+  
+  .map-toggle-button {
+    position: absolute;  /* Position the button inside the map container */
+    bottom: 10px;        /* Distance from the bottom edge of the map */
+    left: 10px;          /* Distance from the left edge of the map */
+    background-color: #007bff; /* Default background color */
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;  /* Size of the button */
+    height: 40px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+    z-index: 1000;  /* Ensure the button is above the map */
+  }
+  
+  .map-toggle-button.plus {
+    background-color: #28a745;  /* Green color for the "plus" state */
+  }
+  
+  .map-toggle-button.minus {
+    background-color: #dc3545;  /* Red color for the "minus" state */
+  }
+  
+  .close-button {
+    position: absolute;  /* Position the button inside the form container */
+    top: 10px;          /* Distance from the top edge of the form */
+    right: 10px;        /* Distance from the right edge of the form */
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    color: #dc3545;  /* Red color for the close button */
+    cursor: pointer;
+  }
+  
+  /* Custom class for a small submit button */
+.btn-small {
+    margin-top: 10px;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.title,
+.maker-tropic{
+    color: #007bff;
+}
+
+/* place.css */
+
+/* Style for the InfoWindow card */
+.info-window-card {
+  width: 200px; /* Fixed width for the card */
+  font-size: 14px; /* Font size for readability */
+}
+
+.info-window-card img {
+  width: 100%; /* Make the image fill the card width */
+  height: 100px; /* Fixed height for the image */
+  object-fit: cover;
+  margin-bottom: 30px; /* Ensure the image covers the space without distortion */
+}
+
+.info-window-card h4 {
+  font-size: 16px; /* Font size for the title */
+  margin-bottom: 10px; /* Space between the title and text */
+}
+
+.info-window-card p {
+  margin-bottom: 0; /* Remove bottom margin for paragraph */
+}
+
+
+/* Add this to your CSS file */
+.navigate-button {
+  font-size: 0.75rem; /* Smaller text size */
+  padding: 0.25rem 0.5rem; /* Adjust padding */
+}

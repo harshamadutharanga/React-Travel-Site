@@ -1,0 +1,254 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    padding: 20px;
+}
+
+.logout-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+Link {
+    color: blue;
+}
+
+.logout-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.small-card {
+    padding: 10px;
+    padding-bottom: 40px;
+    height: 400px; /* Adjust height as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.01); /* Adds a subtle shadow */
+}
+
+.sidebar-card {
+    background-color: #343a40; /* Dark background color */
+    border: none; /* Remove border */
+    border-radius: 0; /* No rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Light shadow for depth */
+    /* Optional: Height and overflow for fixed sidebar */
+    height: 100vh;
+    
+}
+
+.profile-picture {
+    width: 70px; /* Adjust the width as needed */
+    height: 70px; /* Ensure height matches width for a fully rounded effect */
+    object-fit: cover; /* Maintain aspect ratio and cover entire space */
+    border-radius: 50%; /* Ensure the image is fully rounded */
+    border: 2px solid #fff; /* White border for visibility */
+}
+
+.card-title {
+    color: #fff; /* Text color for card title */
+    font-size: 1.2rem; /* Font size for card title */
+    font-weight: bold; /* Bold font weight */
+}
+
+.card-text {
+    color: #ccc; /* Text color for card text */
+}
+
+.nav-link {
+    color: #fff !important; /* Text color for navigation links */
+    font-size: 0.9rem; /* Font size for navigation links */
+    padding: 0.75rem 1rem; /* Padding for navigation links */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.nav-link:hover {
+    background-color: #495057; /* Darker background on hover */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+.nav-link.active {
+    background-color: #495057; /* Active link background color */
+    font-weight: bold; /* Bold font weight for active link */
+}
+
+
+
+.small-card1  {
+    height: 150px;
+    background-color: #d1e9fc; /* Bootstrap light background color */
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.01); /* Adds a subtle shadow */
+}
+.small-card2  {
+    height: 150px;
+    background-color: #d0f2fe; /* Bootstrap light background color */
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.01); /* Adds a subtle shadow */
+}
+
+.small-card3  {
+    height: 150px;
+    background-color: #fff7cc; /* Bootstrap light background color */
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.01); /* Adds a subtle shadow */
+}
+
+.small-card4 {
+    height: 150px;
+    background-color: #ffe7d9; /* Bootstrap light background color */
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.01); /* Adds a subtle shadow */
+}
+
+.small-card1 i {
+    color: #103995;
+    border: 3px solid #c1daf3;
+    background-color: #c1daf3; /* Bootstrap light background color */
+    border-radius: 50%;
+    padding: 12px; /* Adjust padding as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Adds a subtle shadow */
+}
+
+.small-card2 i {
+    border: 3px solid #aed5f2;
+    background-color: #aed5f2; /* Bootstrap light background color */
+    border-radius: 50%;
+    padding: 12px; /* Adjust padding as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Adds a subtle shadow */
+}
+.small-card3 i {
+    border: 3px solid #f2e1ac;
+    background-color: #f2e1ac; /* Bootstrap light background color */
+    border-radius: 50%;
+    padding: 12px; /* Adjust padding as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Adds a subtle shadow */
+}
+
+.small-card1 h1, #7a0c2e
+.small-card1 p{
+    color: #0a2168;
+}
+
+.small-card2 h1,
+.small-card2 p{
+    color: #042979;
+}
+.small-card3 h1,
+.small-card3 p {
+  color: #7e5306;
+}
+
+.small-card4 h1{
+    color: #7a0c2e;
+}
+.small-card4 p{
+    color: #7a0c2e;
+}
+
+.card-title1, p {
+    color: #0b2f7e; /* Bootstrap secondary text color */
+}
+
+
+
+
+/* FONT AWESOME GENERIC BEAT */ 
+.fa-beat {
+    animation:fa-beat 5s ease infinite;
+  }
+  @keyframes fa-beat {
+    0% {
+      transform:scale(1);
+    }
+    5% {
+      transform:scale(1.25);
+    }
+    20% {
+      transform:scale(1);
+    }
+    30% {
+      transform:scale(1);
+    }
+    35% {
+      transform:scale(1.25);
+    }
+    50% {
+      transform:scale(1);
+    }
+    55% {
+      transform:scale(1.25);
+    }
+    70% {
+      transform:scale(1);
+    }
+  }
+  
+  
+  
+  .user {
+    color:red;
+  }
+
+  .small-card3 i{
+    color: #b78105;
+ }
+
+.container-fluid .row {
+    margin-left: -50px;
+}
+
+.pie-chart-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.pie-chart-container canvas {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 768px) {
+    .pie-chart-container {
+        height: 250px; /* Adjust the height for medium screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .pie-chart-container {
+        height: 200px; /* Adjust the height for small screens */
+    }
+}
+
+.small-card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.new-members h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.new-members ul {
+    padding: 0;
+    margin: 0;
+}
+
+.new-members li {
+    display: flex;
+    align-items: center;
+}
+
+.new-members img {
+    border: 2px solid #ddd;
+}
+
+.new-members p {
+    margin: 0;
+}
+
+.new-members .text-muted {
+    color: #6c757d;
+}
